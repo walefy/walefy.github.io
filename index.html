@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Portfólio</title>
 </head>
 <body>
-    <h1>Walefy Domingues Gonçalves</h1>
-    <br>
-    <img src="./assets/imgs/profile.png" alt="Foto de Walefy Domingues Gonçalves" width="300px" id="foto">
-    <br>
-    <a href="./assets/imgs/profile.png" target="_blank">Link da imagem</a>
-    <h2>Descrição</h2>
-    <p id="descricao">
+    <div id="profile-container">
+        <h1 id="nome">Walefy Domingues Gonçalves</h1>
+        <div id="profile-card">
+            <img src="./assets/imgs/profile.png" alt="Foto de Walefy Domingues Gonçalves" width="300px" id="profile-photo">
+            <a href="./assets/imgs/profile.png" target="_blank" id="link-img-profile">Link da imagem</a>
+        </div>
+    </div>
+    <h2 class="green-title">Descrição</h2>
+    <p id="description">
         Meu nome é <strong>Walefy Domingues Gonçalves</strong>,
          tenho 19 anos, sou brasileiro e moro em Guanhães/MG,
          estudo desenvolvimento
         web na <strong>Trybe</strong>.
     </p>
-    <h2>Competências</h2>
+    <h2 class="green-title">Competências</h2>
     <ul id="competencias">
         <li>Python</li>
         <li>JavaScript</li>
@@ -27,12 +30,12 @@
         <li>CSS</li>
         <li><strong>Unix</strong></li>
     </ul>
-    <a href="https://diolinux.com.br/" target="_blank">Meu blog favorito</a>
-    <h3>Index:</h3>
+    <a href="https://diolinux.com.br/" target="_blank" class="no-decoration-link">Meu blog favorito</a>
+    <h3 class="green-title">Index:</h3>
     <ul>
-        <li><a href="#foto">Foto</a></li>
-        <li><a href="#descricao">Descrição</a></li>
-        <li><a href="#competencias">Competências</a></li>
+        <li><a class="no-decoration-link" href="#profile-photo">Foto</a></li>
+        <li><a class="no-decoration-link" href="#description">Descrição</a></li>
+        <li><a class="no-decoration-link" href="#competencias">Competências</a></li>
     </ul>
 </body>
 </html>
