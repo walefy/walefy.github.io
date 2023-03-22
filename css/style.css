@@ -1,60 +1,75 @@
 body {
-    margin: 0;
-    padding: 1%;
-    background-color: #282a36;
-    color: #f8f8f2;
+  /* margin-bottom: 1; */
+  padding: 1%;
+  background-color: #282a36;
+  color: #f8f8f2;
 }
 
 .green-title {
-    color: #50fa7b;
+  color: #50fa7b;
 }
 
 h1#nome {
-    text-align: center;
-    color: #8be9fd
+  text-align: center;
+  color: #8be9fd
 }
 
 div#profile-card {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    height: 20%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 1%;
-    border-radius: 4%;
-    background-color: #44475a;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1%;
+  border-radius: 4%;
+  background-color: #44475a;
 }
 
 div#profile-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
 }
 
 
 img#profile-photo {
-    border-radius: 100%;
+  width: 70%;
+  /* width: 300px; */
+  border-radius: 100%;
 }
 
 .no-decoration-link {
-    color: #bd93f9;
-    text-decoration: none;
+  color: #bd93f9;
+  text-decoration: none;
 }
 
 a#link-img-profile {
-    font-size: 10px;
-    margin-top: 5px;
-    text-decoration: none;
-    color: #bd93f9;
+  font-size: 10px;
+  margin-top: 5px;
+  text-decoration: none;
+  color: #bd93f9;
 }
 
 p#description {
-    background-color: #44475a;
-    padding: 2%;
-    text-align: left;
-    color: #ffb86c;
+  background-color: #44475a;
+  padding: 2%;
+  text-align: left;
+  color: #ffb86c;
+}
+
+footer {
+  margin-top: 5%;
+}
+
+#favorite-blog {
+  background-color: #44475a;
+  padding: 1%;
+}
+
+#favorite-blog:hover {
+  filter: brightness(2);
 }
