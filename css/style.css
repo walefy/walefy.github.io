@@ -106,3 +106,10 @@ footer {
 #nav-footer {
   margin-top: 40px;
 }
+
+@media screen and (max-width: 380px) {
+  #profile-card {
+    height: 50%;
+    width: 50%;
+  }
+}
