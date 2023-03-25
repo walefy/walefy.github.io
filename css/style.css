@@ -107,7 +107,7 @@ footer {
   margin-top: 40px;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 500px) {
   #profile-card {
     height: 50%;
     width: 50%;
